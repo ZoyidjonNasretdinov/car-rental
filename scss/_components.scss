@@ -1,0 +1,11 @@
+// _components.scss
+.button {
+  @include button-style($primary-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}

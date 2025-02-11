@@ -1,0 +1,12 @@
+// _layout.scss
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  @include flex-center;
+  height: 60px;
+  background-color: $primary-color;
+}
